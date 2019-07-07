@@ -1,0 +1,18 @@
+/*body {
+	height: 50%;
+}*/
+.title {
+	width: 20%;
+	float: left;
+	background-color: #65a4fa;
+	text-align: center;
+	padding-bottom: 55%;
+	border-right: 2rem white solid
+}
+.content{
+	width: 80%;
+	float: right;
+}
+.title, .content {
+	box-sizing: border-box;
+}

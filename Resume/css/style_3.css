@@ -1,0 +1,36 @@
+.title {
+	background-color: #666666;
+	padding: 0.5em 0 0.5em 1rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.content h2 {
+	width: 20%;
+	padding: 2em 0;
+	background-color: #cccccc;
+	float: left;
+	border-right: white 1em solid;
+	border-bottom: white 1px solid;
+	text-align: center;
+
+
+}
+
+content .items {
+	width: 80%;
+	float: right;
+}
+
+.content div h2, .content div .items {
+	box-sizing: border-box;
+}
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
