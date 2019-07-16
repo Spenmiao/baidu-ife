@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.left {
+	width: 200px;
+	height: 100%;
+	background-color: navy;
+	float: left;
+}
+.right {
+	width: 200px;
+	height: 100%;
+	background-color: yellow;
+	float: right;
+}
+
+.center {
+	height: 100%;
+	background-color: blue;
+	
+

@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	color: gray;
+}
+
+img {
+	width: 85%;
+	float: left;
+}
+header div {
+	width: 15%;
+	float: right;
+}
+
+.banner {
+	position: relative;
+	height: 300px;
+}
+
+.banner .items {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.banner .items .item {
+	display: inline-block;
+}
+
+.main {
+	margin: 0 auto;
+}
+.main .contents {
+	width: 960px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.main .contents .content {
+	flex: auto;
+	padding: 80px;
+	color: red;
+	border:1px solid gray;
+
+}

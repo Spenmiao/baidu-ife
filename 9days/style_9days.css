@@ -1,0 +1,59 @@
+body {
+	width: 1600px;
+	height: 6270px;
+	border: 1px solid gray;
+}
+body > div.contents_wrap {
+	width: 75%;
+	margin: auto;
+}
+.title {
+	font: 2em white;
+}
+
+.p	{
+	font: 1em #7773ff;
+}
+
+
+.header_wrap {
+	height: 990px;
+	width: 1600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background-image: url("images/9days (1).png");
+}
+
+.feature1_wrap {
+	text-align: center;
+}
+.feature1_wrap .item2 {
+	display: flex;
+	flex-wrap: row ;
+	width: 75%;
+	margin: auto;
+	overflow: auto;
+
+}
+
+.feature1_wrap > .item2 > .div {
+	border: 1px solid ;
+	box-sizing: border-box;
+}
+
+body > div.contents_wrap > div.feature2_wrap {
+	background: url("images/9days (2).png");
+}
+body > div.contents_wrap > div.feature2_wrap > div.items > div.text {
+	width: 20%;
+}
+
+body > div.contents_wrap > div.feature3_wrap > div {
+	display: flex;
+	margin: auto;
+}
+body > div.contents_wrap > div.feature4_wrap > * {
+	display: flex;
+}
