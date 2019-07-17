@@ -23,7 +23,7 @@ body > div.contents_wrap {
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	background-image: url("images/9days (1).png");
+	background: url("images/9days (1).png") center/contain;
 }
 
 .feature1_wrap {
@@ -31,20 +31,20 @@ body > div.contents_wrap {
 }
 .feature1_wrap .item2 {
 	display: flex;
-	flex-wrap: row ;
+	flex-flow: row wrap ;
 	width: 75%;
 	margin: auto;
-	overflow: auto;
 
 }
-
-.feature1_wrap > .item2 > .div {
-	border: 1px solid ;
+body > div.contents_wrap > div.feature1_wrap > div.item2 > div {
+	border: 1px solid gray;
 	box-sizing: border-box;
+	width: 450px;
+
 }
 
 body > div.contents_wrap > div.feature2_wrap {
-	background: url("images/9days (2).png");
+	background: url("images/9days (2).png") no-repeat right; 
 }
 body > div.contents_wrap > div.feature2_wrap > div.items > div.text {
 	width: 20%;
@@ -56,4 +56,17 @@ body > div.contents_wrap > div.feature3_wrap > div {
 }
 body > div.contents_wrap > div.feature4_wrap > * {
 	display: flex;
+}
+
+.feature4_wrap > div {
+	display: flex;
+}
+
+.team_wrap .item2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.team_wrap .item2 img {
+	width: 50%;
+	box-sizing: border-box;
 }
