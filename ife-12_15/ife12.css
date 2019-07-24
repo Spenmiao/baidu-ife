@@ -1,0 +1,126 @@
+/*浮动设置*/
+
+.fr, .fl {
+	display: block;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.clearfix:after, .clearfix:before {
+	content: " ";
+	display: block;
+	clear: both;
+
+}
+
+/*容器设置*/
+.container {
+	width: 100%;
+	height: 960px;
+	background: rgba(0, 0, 0, .1);
+	margin: auto;
+}
+
+/*分栏系统*/
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+	float: left;
+}
+
+.col-1 {
+	width: 10%;
+}
+.col-2 {
+	width: 20%;
+}
+.col-3 {
+	width: 30%;
+}
+.col-4 {
+	width: 40%;
+}
+.col-5 {
+	width: 50%;
+}
+.col-6 {
+	width: 60%;
+}
+.col-7 {
+	width: 70%;
+}
+.col-8 {
+	width: 80%;
+}
+.col-9 {
+	width: 90%;
+}
+.col-10 {
+	width: 100%;
+}
+
+body {
+	background: rgba(234, 228, 228, 0.45);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*全局内容设置*/
+
+body > div > div.info, body > div > div.messages {
+	height: 100%;
+}
+
+body > div > div.info> div.right_bar {
+	width: 150px;
+	background: #222c3c;
+	height: 100%;
+	color: #b1bac7;
+}
+	
+body > div > div.messages {
+	background: white;
+}
+
+body > div > div.messages> div.contact > div.left_bar {
+	width: 300px;
+}
+
+/*信息栏左侧*/
+body > div > div.info > div.left_bar > img {
+	display: block;
+	border-radius: 50%;
+	margin: 1em 0;
+}
+
+/*信息栏右侧*/
+body > div > div.info> div.right_bar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body > div > div.info > div.right_bar > div {
+	margin:0 0 1em ;
+	border: 1px solid gray;
+}
+
+body > div > div.info > div.right_bar > div li {
+	padding: 10px;
+}
