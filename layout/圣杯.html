@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>everthing is box</title>
+	<style>
+		body {
+			min-width: 620px;
+
+			background: white;
+		}
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+x
+		#header {
+			height: 50px;
+			background: gray;
+
+		}
+
+		#container {
+			/* height: 500px; */
+			background: white;
+			/* overflow: auto; */
+			/* padding: 0 220px 0 200px; */
+			margin: 0 220px 0 200px;
+			position: relative;
+
+		
+
+		}
+		#container::after {
+			content: " ";
+			display: block;
+			clear: both;
+		}
+		#container .main, .left, .right {
+			height: 300px;
+			float: left;
+
+		}
+		
+		#container .main {
+			width: 100%;
+			background: #e03e3e;
+			text-align: start;
+		}
+
+		#container .left {
+			width: 200px;
+			background: #25e0542f;
+			margin-left: -100%;
+			position: relative;
+			left: -200px;
+
+		}
+
+		#container .right {
+			width: 220px;
+			background: #2123b888;
+			margin-left: -220px;
+			position: relative;
+			right: -220px;
+
+		}
+
+
+		#footer {
+			height: 50px;
+			background: gray;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">header</div>
+	<div id="container">
+		<div class="main">main</div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+	<div id="footer">footer</div>
+
+</body>
+
+</html>
