@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::after ,.clearfix::before{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+#wrapper {
+    display: flex;
+    /* width: 950px; */
+    height: 100%;
+    margin: 0 auto;
+  
+}
+
+#side-left, #side-right {
+    height: 100%;
+}
+#side-left {
+    width: 200px;
+    color: aliceblue;
+}
+#side-right {
+    background-color: white;
+}
+
+#side-right #header span {
+    display: inline-block;
+}
+#nav, #tools {
+    height: 100%;
+}
+#nav {
+    float: right;
+    width: 150px;
+    background: #38465e;
+}
+#nav ul {
+    list-style-type: none;
+}
+#tools {
+    background-color: #1d2530;
+    margin-right: 150px;
+    overflow: hidden;
+}
+#tools img {
+    width: 75%;
+    height: 75%;
+
+}
+#header {
+    background-color: #ecf4fc;
+    width: 100%;
+    height: 50px;
+}
+
+.mian {
+    position: relative;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mian #contact {
+    width: 30%;
+}
+
+.mian #contact textarea {
+    width: 100%;
+}
+
+.mian #messages{
+    width: 70%;
+}
