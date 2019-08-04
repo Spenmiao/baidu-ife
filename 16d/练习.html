@@ -19,13 +19,13 @@
     <p id="result">运算结果</p>
     <script>
         document.getElementById("add-btn").onclick = function() {
-        result.innerHTML = document.getElementById("first-number").value + document.getElementById("second-number").value;}
+        result.innerHTML = parseInt(document.getElementById("first-number").value) + parseInt(document.getElementById("second-number").value);}
         document.getElementById("minus-btn").onclick = function() {
-        result.innerHTML = document.getElementById("first-number").value - document.getElementById("second-number").value;}
+        result.innerHTML = parseInt(document.getElementById("first-number").value) - parseInt(document.getElementById("second-number").value);}
         document.getElementById("times-btn").onclick = function() {
-        result.innerHTML = document.getElementById("first-number").value * document.getElementById("second-number").value;}
+        result.innerHTML = parseInt(document.getElementById("first-number").value) * parseInt(document.getElementById("second-number").value);}
         document.getElementById("divide-btn").onclick = function() {
-        result.innerHTML = document.getElementById("first-number").value / document.getElementById("second-number").value;}
+        result.innerHTML = parseInt(document.getElementById("first-number").value) / parseInt(document.getElementById("second-number").value);}
 
     </script>
 </body>
